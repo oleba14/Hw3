@@ -1,14 +1,8 @@
 x = int(input('X: '))
 y = int(input('Y:'))
 
-if x >= 0 :
-    if y >= 0:
-        print('Перша нульового')
-    else:
-        print(' друга  нульового')
-else:
-        if y >= 0:
-            print('третя анульового')
-        else:
-         print('четверта нульового')
+while x == 0 :
+    print("X can't be equal to zero")
+    x = int(input('X: '))
 
+result = y / x
